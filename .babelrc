@@ -2,11 +2,28 @@
     "presets": [
         [
             "env", {
+                "debug": false,
+                "spec": false,
+                "loose": true,
+                "modules": false,
+                "useBuiltIns": false,
+                "include": [],
+                "exclude": [],
                 "targets": {
-                    "browsers": ["last 2 versions", "safari >= 7"]
+                    "browsers": ["last 2 versions", "safari >= 7"],
+                    "chrome": [],
+                    "opera": [],
+                    "edge": [],
+                    "firefox": [],
+                    "safari": [],
+                    "ie": [],
+                    "ios": [],
+                    "android": [],
+                    "node": [],
+                    "electron": []
                 }
             }
         ]
     ],
-    "plugins": []
+    "plugins": ["transform-async-generator-functions"]
 }

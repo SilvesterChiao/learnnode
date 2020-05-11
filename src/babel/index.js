@@ -2,12 +2,12 @@
  * @Author: SilvesterChiao
  * @Date: 2020-05-11 13:46:46
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-11 14:52:52
+ * @LastEditTime: 2020-05-11 22:10:02
  */
 
- import 'babel-polyfill'
+import 'babel-polyfill'
 
-// 箭头函数
+// 箭头函数 -
 input.map(item => item + 1)
 
 // Array.from
@@ -21,3 +21,15 @@ const obj = {
 }
 
 const { name, age } = obj
+
+// 异步 generator 函数
+async function* agf() {
+    await 1;
+    yield 2;
+}
+
+// async 函数
+const bar = () => {}
+async function foo() {
+    await bar();
+}

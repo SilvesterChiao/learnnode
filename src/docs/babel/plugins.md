@@ -2,12 +2,19 @@
  * @Author: SilvesterChiao
  * @Date: 2020-05-11 14:23:40
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-11 15:06:50
+ * @LastEditTime: 2020-05-11 16:28:33
  -->
 
 # Babel 插件
 
 各插件及用途
+- Plugin 在 Preset 之前执行
+- Plugin 从前向后执行
+- Preset 从后向前执行
+
+env 包含 es2015, es2016, es2017
+    [babel-preset-env]()
+    [@babel/preset-env]()
 
 - ES3
     - member-expression-literals
@@ -15,7 +22,7 @@
     - reserved-words
 - ES5
     - property-mutators
-- ES2015
+- ES2015 (babel-preset-es2015)
     - arrow-functions
     - block-scoped-functions
     - block-scoping
@@ -39,7 +46,9 @@
 - ES2016
     - exponentiation-operator
 - ES2017
-    - async-to-generator: async/await 函数
+    - async-to-generator: async 函数
+        [babel6 插件 npm 地址](https://www.npmjs.com/package/babel-plugin-transform-async-generator-functions)
+        [babel7 插件 npm 地址](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions)
 - ES2018
     - async-generator-functions
     - dotall-regex
@@ -112,6 +121,13 @@
     - runtime
     - strict-mode
     - typescript
+
+## 第三方插件
+
+- [transform-decorators-legacy](https://www.npmjs.com/package/babel-plugin-transform-decorators-legacy): 装饰器
+- [transform-class-properties](https://www.npmjs.com/package/babel-plugin-transform-class-properties): 静态属性
+- [transform-object-rest-spread](https://www.npmjs.com/package/babel-plugin-transform-object-rest-spread): 解构赋值及对象的扩展属性
+- [babel-plugin-import](https://www.npmjs.com/package/babel-plugin-import): 模块化导入插件
 
 ## 参考链接
 

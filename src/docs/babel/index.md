@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-05-11 11:20:07
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-11 14:27:45
+ * @LastEditTime: 2020-05-11 22:17:49
  -->
 
 # Babel
@@ -11,7 +11,7 @@
 
 ## 配置文件
 
-.babelrc
+[配置文件](/src/docs/babel/config.md)
 
 ## 命令行
 
@@ -32,11 +32,12 @@ babel src -d lib -s
 
 ## 相关 npm 包
 
-1. babel-cli
-1. babel-node
-1. babel-register
-1. babel-core
-1. babel-polyfill
+1. babel-cli: 命令行
+1. babel-node: 直接执行 node.js 代码, 代替 node 命令
+1. babel-core: 核心模块
+1. babel-polyfill: 增加新增 API 支持
+1. babel-eslint: eslint 语法检查
+1. babel-register:
 
 ## 参考文献
 
@@ -44,3 +45,5 @@ babel src -d lib -s
 1. [一口（很长的）气了解 babel](https://zhuanlan.zhihu.com/p/43249121)
 1. [Babel 入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html?bsh_bid=1851048600)
 1. [Babel 7 基础入门学习（详细版）](https://blog.csdn.net/weixin_41046961/article/details/87908962)
+1. [babel-preset-env使用指南](https://www.cnblogs.com/chyingp/archive/2018/06/05/9137849.html)
+1. [es6 各功能浏览器兼容性](https://kangax.github.io/compat-table/es6/)
