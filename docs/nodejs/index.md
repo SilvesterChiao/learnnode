@@ -1,8 +1,8 @@
 <!--
- * @Author: fu.nan
+ * @Author: SilvesterChiao
  * @Date: 2020-05-09 11:41:56
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-11 14:31:39
+ * @LastEditTime: 2020-06-12 09:45:50
  -->
 # Nodejs 基础
 
@@ -18,11 +18,12 @@
 
 ## Node.js 常见模块
 
-- require、global、util
-- fs、Buffer、Stream、zlib
-- http、url、querystring、path、net、dns
-- process、os、readline
+- 基础: require、global、util
+- 文件: fs、Buffer、Stream、zlib
+- 网络: http、url、querystring、path、net、dns
+- 终端: process、os、readline
 
 ## 参考链接
 
 1. [Node.js 教程 | 菜鸟教程](https://www.runoob.com/nodejs/nodejs-router.html)
+1. [Node.js 中文网](http://nodejs.cn/)

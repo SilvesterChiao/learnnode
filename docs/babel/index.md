@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-05-11 11:20:07
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-11 22:17:49
+ * @LastEditTime: 2020-05-12 15:13:17
  -->
 
 # Babel
@@ -12,6 +12,12 @@
 ## 配置文件
 
 [配置文件](/src/docs/babel/config.md)
+
+## 用法
+
+1. 单体文件
+1. 命令行
+1. 构建工具插件(webpack 的 babel-loader, rollup 的 rullup-plugin-babel)
 
 ## 命令行
 
@@ -38,6 +44,7 @@ babel src -d lib -s
 1. babel-polyfill: 增加新增 API 支持
 1. babel-eslint: eslint 语法检查
 1. babel-register:
+1. babel/preset-env:
 
 ## 参考文献
 
@@ -47,3 +54,5 @@ babel src -d lib -s
 1. [Babel 7 基础入门学习（详细版）](https://blog.csdn.net/weixin_41046961/article/details/87908962)
 1. [babel-preset-env使用指南](https://www.cnblogs.com/chyingp/archive/2018/06/05/9137849.html)
 1. [es6 各功能浏览器兼容性](https://kangax.github.io/compat-table/es6/)
+1. [再见，babel-preset-2015](https://zhuanlan.zhihu.com/p/29506685)
+1. [Babel 教程](https://cloud.tencent.com/developer/doc/1260)
