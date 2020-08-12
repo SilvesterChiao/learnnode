@@ -1,0 +1,20 @@
+/*
+ * @Author: SilvesterChiao
+ * @Date: 2020-06-16 13:41:50
+ * @LastEditors: SilvesterChiao
+ * @LastEditTime: 2020-06-16 13:42:01
+ */
+
+ .article-list {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+
+.article {
+  padding: 20px;
+  border-bottom: 1px solid #f0f2f7;
+}
+
+.article:last-of-type {
+  border-bottom: none;
+}

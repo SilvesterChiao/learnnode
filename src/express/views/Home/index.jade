@@ -1,0 +1,17 @@
+extends ../../components/layout/layout
+
+block style
+  link(rel='stylesheet', href='/styles/home.css')
+
+block content
+  //- a(href="/user") 用户
+  //- h1= title
+  //- p Welcome to #{title}
+  .article-list
+    each item in articles
+      .article
+        h3= item.title
+        p= item.content
+  //- img(src="/images/background.png", alt="背景图")
+block script
+  script(src='/scripts/index.js')

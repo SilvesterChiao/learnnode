@@ -1,21 +1,20 @@
 /*
  * @Author: SilvesterChiao
- * @Date: 2020-05-28 17:27:16
+ * @Date: 2020-06-30 15:54:30
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-07-01 10:22:51
+ * @LastEditTime: 2020-07-01 10:50:35
  */
 
 var router = require('koa-router')();
 const teacherList = require('../../mock/teacherList');
 
-router.prefix('/teacher');
+router.prefix('/teacheres');
 
 router.get('/', async (ctx, next) => {
-    ctx.body = 'teacherList';
-})
-
-router.get('/getTeacherList', async (ctx, next) => {
-    ctx.body = teacherList;
+    // 渲染 pages/teacher 下的 teacheres.ejs
+    await ctx.render('teacher/teacheres', {
+        title: 'Hello Teacher'
+    })
 })
 
 module.exports = router;

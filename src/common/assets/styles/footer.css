@@ -1,0 +1,16 @@
+/*
+ * @Author: SilvesterChiao
+ * @Date: 2020-06-16 11:48:46
+ * @LastEditors: SilvesterChiao
+ * @LastEditTime: 2020-06-16 11:50:34
+ */
+
+footer {
+  height: 50px;
+}
+
+footer p {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}

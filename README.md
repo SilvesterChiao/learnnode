@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-05-09 15:27:37
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-14 16:05:15
+ * @LastEditTime: 2020-08-11 11:08:13
  -->
 
 # Node.js 学习笔记
@@ -26,5 +26,4 @@
 
 ## 参考链接
 
-1. [Node.js 的使用](/src/docs/nodejs/index.md)
-1. [Babel 的使用](/src/docs/babel/index.md)
+1. [Node.js 的使用](/docs/nodejs/index.md)

@@ -1,0 +1,13 @@
+extends ../components/layout/layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  .actor-list
+    each item in actoros
+      .article
+        h3= item.id
+        p= item.name
+        img(src=item.image, alt="actor")
+block script
+  script(src='/scripts/index.js')

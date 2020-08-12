@@ -1,0 +1,33 @@
+extends ../../components/layout/layout
+
+block content
+  a.nav#index(href="/", title="index") 首页
+  p.
+    鹅鹅鹅
+    曲项向天歌
+    白毛浮绿水
+    红掌拨清波
+    #{title}
+  p
+    | 醉里挑灯看剑
+    | 梦回吹角连营
+    -each name in names
+      span=name
+  form(action="/addUser", method="post")
+    input(type="text", name="userName")
+    input(type="submit", value="提交")
+  -var name = "Emily"
+  p #{name}
+  -var htmlText = "<strong>strong</strong>"
+  p #{htmlText}
+  p!=htmlText
+  p=htmlText
+  p !{htmlText}
+  p \#{htmlData}
+  p \!{htmlData}
+  p #{s}
+
+  script.
+    var s = 'hello'
+    var names = !{JSON.stringify(names)}
+    console.log(names)
