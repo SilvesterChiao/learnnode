@@ -7,6 +7,6 @@
 
 # express 学习笔记
 
-## 参考链接
+## 参考文档
 
 1. [Express 中文网](https://www.expressjs.com.cn/)

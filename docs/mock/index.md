@@ -30,6 +30,6 @@ Mock.mock({ email: '@email' })
 | Helper | capitalize, upper, lower, pick, shuffle |
 | Miscellaneous | guid, id |
 
-## 参考链接
+## 参考文档
 
 1. [Mock.js](http://mockjs.com)
