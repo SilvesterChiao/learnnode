@@ -2,7 +2,7 @@
  * @Author: SilvesterChiao
  * @Date: 2020-05-14 16:00:38
  * @LastEditors: SilvesterChiao
- * @LastEditTime: 2020-05-14 16:04:08
+ * @LastEditTime: 2021-06-06 20:04:04
  -->
 
 # Nodejs.js 教程 | 菜鸟教程
@@ -28,3 +28,7 @@
 1. JXcore 打包:
 2. MySQL: mysql.js
 2. MongoDB:
+
+## 参考文档
+
+1. [Node.js 教程](https://www.runoob.com/nodejs/nodejs-tutorial.html)
